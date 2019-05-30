@@ -1,1 +1,151 @@
-About Me
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AboutMe</title>
+    <link rel="shortcut icon" type="image/png" href="media/title_icon.png" />
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<header>
+    <div class="row_header">
+        <nav class="column_header">
+            <ul class="navbar">
+                <li>
+                    <a href="index.html" id="isActive">Home</a>
+                </li>
+                <li>
+                    <a href="interests.html">Interests</a>
+                </li>
+                <li>
+                    <a href="timeline.html">Timeline</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="column_header">
+            <ul class="navbar_socialnetwork">
+                <li>
+                    <a href="https://www.instagram.com/markus_paa/?hl=de" target="_blank"><img src="media/instagram.png" alt="instagram"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/mark_pa_" target="_blank"><img src="media/twitter.png" alt="twitter"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/MarkusPaier" target="_blank"><img src="media/github.png" alt="github"></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div id="wrapper">
+
+    <a href="#wrapper" id="topBtn">Top</a>
+
+    <div class="profile_header">
+        <div>
+            <h6 class="title">About Me</h6>
+            <ul class="navbar_profile">
+                <li>
+                    <img class="profile" src="media/profile.jpg" alt="profile">
+                </li>
+                <li class="aboutme_details">
+                    <h4>Markus Paier</h4>
+                    <h4>Bio:</h4>
+                    <ul>
+                        <li>
+                            <h4>📍 made in austria</h4>
+                        </li>
+                        <li>
+                            <h4>🏋️‍ fitness</h4>
+                        </li>
+                        <li>
+                            <h4>👨‍💻 developer</h4>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <h5 class="post_title">Post's:</h5>
+
+    <div class="row">
+        <div class="column">
+            <div class="index_media">
+                <img src="media/food_streets.jpg" alt="food_streets">
+                <p class="post_text">#food #streets #leckerschmecker</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="index_media">
+                <img src="media/dog.jpg" alt="dog">
+                <p class="post_text">#sunny #🐶</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="index_media">
+                <img src="media/shooten.jpg" alt="shooten">
+                <p class="post_text">#shooten @zangtal</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="index_media">
+                <video controls loop><source src="media/car.mp4" type="video/mp4"></video>
+                <p class="post_text">#fordmustang #car #fun #verrrücktsein</p>
+                <div class="button">
+                    <a href="#popup"><img src="media/info.png" alt="info"></a>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="index_media">
+                <img src="media/shooten1.jpg" alt="shooten">
+                <p class="post_text">#tontaubenschießen</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="index_media">
+                <video controls loop><source src="media/freigeist.mp4" type="video/mp4"></video>
+                <p class="post_text">#freigeist</p>
+                <div class="button">
+                    <a href="#popup1"><img src="media/info.png" alt="info"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- dialog -->
+    <div id="popup" class="background_dialog">
+        <div class="popup_box">
+            <h2>Ford Mustang</h2>
+            <a class="close_dialog" href="#!">&times;</a>
+            <div class="content">
+                My best friend borrowed a Ford Mustang to drive all over Styria.
+            </div>
+        </div>
+    </div>
+    <div id="popup1" class="background_dialog">
+        <div class="popup_box">
+            <h2>Freigeist</h2>
+            <a class="close_dialog" href="#!">&times;</a>
+            <div class="content">
+                To eat dessert!
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <span>© 2019 Markus Paier</span>
+    </footer>
+</div>
+</body>
+</html>
